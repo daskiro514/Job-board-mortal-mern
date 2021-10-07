@@ -1,0 +1,26 @@
+.custom-carousel-summary-container {
+	position: relative;
+  width: 90%;
+  height: 40%;
+  margin: 0 auto;
+  bottom: 1;
+  top: 55%;
+}
+
+.custom-carousel-summary-mask {
+  background: black;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+  margin: 0 auto;
+}
+
+.custom-carousel-summary-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
