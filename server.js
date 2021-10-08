@@ -46,7 +46,6 @@ app.get('*', (req, res) => {
   res.sendFile(__dirname + '/client/build/index.html')
 })
 
-
 // Serve static assets in production
 if (process.env.NODE_ENV === 'production') {
   // Set static folder
